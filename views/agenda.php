@@ -42,7 +42,7 @@
         <meta name="msapplication-square310x310logo" content="mstile-310x310.png" />
 	
 		<!-- stylesheet -->
-        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="../css/style.css">
 
         <!--[if lt IE 9]>
 			<script src="js/plugins/html5shiv.js"></script>
@@ -55,7 +55,7 @@
         <nav class="cbp-spmenu-push" id="nav">
             <div class="container">
                 <div class="logo">
-                    <a href="index.php">Van <strong>klomp</strong> tot <strong>kunst</strong></a>
+                    <a href="../index.php">Van <strong>klomp</strong> tot <strong>kunst</strong></a>
                 </div>
 
                 <div class="search" id="search"></div>
@@ -68,12 +68,12 @@
                 <div class="hamburger" id="showRightPush"></div>
 
                 <ul>
-                    <li><a href="index.php" class="active">Home</a></li>
+                    <li><a href="../index.php">Home</a></li>
                     <li>
                       <a href="#" class="locations">Locations</a>
 
                       <div class="dropdown">
-                        <div class="row"><a href="/klomp/locations.php">Edam</a></div>
+                        <div class="row"><a href="locations.php">Edam</a></div>
                         <div class="row"><a href="#">Volendam</a></div>
                         <div class="row"><a href="#">Warder</a></div>
                         <div class="row"><a href="#">Kwadijk</a></div>
@@ -94,12 +94,12 @@
     <!-- Mobile Navigation -->
        <div class="cbp-spmenu cbp-spmenu-vertical cbp-spmenu-right" id="cbp-spmenu-s2">
            <h1>Menu</h1>
-           <a href="index.php">Home</a>
+           <a href="../index.php">Home</a>
            <a href="#" id="locaties">Locaties <div class="arrow"></div></a>
 
           <!-- Mobile subnav -->
           <ul class="subnav">
-            <li><a href="/klomp/locations.php">Edam</a></li>
+            <li><a href="locations.php">Edam</a></li>
             <li><a href="#">Volendam</a></li>
             <li><a href="#">Warder</a></li>
             <li><a href="#">Kwadijk</a></li>
@@ -236,10 +236,10 @@
 
             <div class="col-25">
                 <a href="http://www.edam-volendam.nl/" target="_blank">
-                    <img src="images/logo.png" alt="Gemeente Edam Volendam">
+                    <img src="../images/logo.png" alt="Gemeente Edam Volendam">
                 </a>
                 <a href="http://www.euroart.eu/" target="_blank">
-                    <img src="images/euroart-logo.png" alt="Euroart">
+                    <img src="../images/euroart-logo.png" alt="Euroart">
                 </a>
             </div>
 
@@ -267,11 +267,11 @@
     	</script>
 
         <!-- JS -->
-        <script src="js/libs/jquery.js"></script>
-        <script src="js/libs/classie.js"></script>
-        <script src="js/plugins/animateCSS.js"></script>
-        <script src="js/plugins/jquery.tooltipster.min.js"></script>
-        <script src="js/main.js"></script>
+        <script src="../js/libs/jquery.js"></script>
+        <script src="../js/libs/classie.js"></script>
+        <script src="../js/plugins/animateCSS.js"></script>
+        <script src="../js/plugins/jquery.tooltipster.min.js"></script>
+        <script src="../js/main.js"></script>
 
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
         <script>

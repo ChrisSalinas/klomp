@@ -77,12 +77,12 @@
         <div class="hamburger" id="showRightPush"></div>
 
         <ul>
-            <li><a href="index.php" class="active">Home</a></li>
+            <li><a href="index.php" >Home</a></li>
             <li>
                 <a href="#" class="locations">Locations</a>
 
                 <div class="dropdown">
-                    <div class="row"><a href="/klomp/locations.php">Edam</a></div>
+                    <div class="row"><a href="views/locations.php">Edam</a></div>
                     <div class="row"><a href="#">Volendam</a></div>
                     <div class="row"><a href="#">Warder</a></div>
                     <div class="row"><a href="#">Kwadijk</a></div>
@@ -93,8 +93,8 @@
                     <div class="row"><a href="#">Hobrede</a></div>
                 </div>
             </li>
-            <li><a href="agenda.php" id="agenda">Agenda</a></li>
-            <li><a href="contact.php">Contact</a></li>
+            <li><a href="views/agenda.php" id="agenda">Agenda</a></li>
+            <li><a href="views/contact.php">Contact</a></li>
         </ul>
     </div>
 </nav>
@@ -108,7 +108,7 @@
 
     <!-- Mobile subnav -->
     <ul class="subnav">
-        <li><a href="/klomp/locations.php">Edam</a></li>
+        <li><a href="views/locations.php">Edam</a></li>
         <li><a href="#">Volendam</a></li>
         <li><a href="#">Warder</a></li>
         <li><a href="#">Kwadijk</a></li>
@@ -120,8 +120,8 @@
     </ul>
     <!-- End Mobile subnav -->
 
-    <a href="agenda.php" id="agenda">Agenda</a>
-    <a href="contact.php">Contact</a>
+    <a href="views/agenda.php" id="agenda">Agenda</a>
+    <a href="views/contact.php">Contact</a>
 
     <form action="#" method="POST">
         <!-- <div class="search-btn"></div> -->
@@ -170,7 +170,7 @@
     <div class="container">
 
         <div class="col-33 edam">
-            <a href="/klomp/locations.php">
+            <a href="/klomp/views/locations.php">
                 <div class="overlay">
                     <h3>Edam</h3>
                     <p>Lorem ipsum dolor sit amet ,
